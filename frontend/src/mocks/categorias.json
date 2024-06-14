@@ -1,0 +1,39 @@
+{
+   "categories": [
+      {
+         "id": 1,
+         "nombre": "Deportes",
+         "descripcion": "Actividad fisica"
+      },
+      {
+         "id": 2,
+         "nombre": "Cocina",
+         "descripcion": "Cocinar, compartir recetas"
+      },
+      {
+         "id":3,
+         "nombre": "Gastronomia",
+         "descripcion": "Degustaciones"
+      },
+      {
+         "id": 4,
+         "nombre": "Música",
+         "descripcion": "Escuchar, comentar o practicar"
+      },
+      {
+         "id": 5,
+         "nombre": "Aventura",
+         "descripcion": "Actividad fisica al aire libre"
+      },
+      {
+         "id": 6,
+         "nombre": "Infancias",
+         "descripcion": "Actividad fisica"
+      },
+      {
+         "id": 7,
+         "nombre": " Arte",
+         "descripcion": "Actividad fisica"
+      }    
+   ]
+}

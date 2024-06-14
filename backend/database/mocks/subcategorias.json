@@ -1,0 +1,214 @@
+{
+   "preferencias": [
+      {
+         "id": 1,
+         "categoryId": 1,
+         "nombre": "Soccer",
+         "descripcion": "Equipos de 11 personas"
+      },
+      {
+         "id": 2,
+         "categoryId": 1,
+         "nombre": "Bolibol",
+         "descripcion": "Equipos de 6 personas"
+      },
+      {
+         "id": 3,
+         "categoryId": 1,
+         "nombre": "Pescar",
+         "descripcion": "Captura de pesca en agua dulce o salada"
+      },
+      {
+         "id": 4,
+         "categoryId": 1,
+         "nombre": "Beisbol",
+         "descripcion": "Equipos de 20 personas"
+      },
+      {
+         "id": 5,
+         "categoryId": 1,
+         "nombre": "Ciclismo",
+         "descripcion": "Ciclismo deportivo a nivel de competencia"
+      },
+      {
+         "id": 6,
+         "categoryId": 2,
+         "nombre": "Vegana",
+         "descripcion": "Aprender, probar y compartir recetas"
+      },
+      {
+         "id": 7,
+         "categoryId": 2,
+         "nombre": "Vegetariana",
+         "descripcion": "Aprender, probar y compartir recetas"
+      },
+      {
+         "id": 8,
+         "categoryId": 2,
+         "nombre": "Parrillera",
+         "descripcion": "Aprender, probar y compartir recetas"
+      },
+      {
+         "id": 9,
+         "categoryId": 2,
+         "nombre": "Casera",
+         "descripcion": "Aprender, probar y compartir recetas"
+      },
+      {
+         "id": 10,
+         "categoryId": 2,
+         "nombre": "A la leña",
+         "descripcion": "Aprender, probar y compartir recetas"
+      },
+      {
+         "id": 11,
+         "categoryId": 3,
+         "nombre": "Comida Brasileira",
+         "descripcion": "Degustar platillos tradicionales"
+      },
+      {
+         "id": 12,
+         "categoryId": 3,
+         "nombre": "Comida Argentina",
+         "descripcion": "Degustar platillos tradicionales"
+      },
+      {
+         "id": 13,
+         "categoryId": 3,
+         "nombre": "Comida Uruguaya",
+         "descripcion": "Degustar platillos tradicionales"
+      },
+      {
+         "id": 14,
+         "categoryId": 3,
+         "nombre": "Comida Chile",
+         "descripcion": "Degustar platillos tradicionales"
+      },
+      {
+         "id": 15,
+         "categoryId": 3,
+         "nombre": "Comida Paraguaya",
+         "descripcion": "Degustar platillos tradicionales"
+      },
+      {
+         "id": 16,
+         "categoryId": 4,
+         "nombre": "Rock",
+         "descripcion": "Conciertos, tocar instrumentos"
+      },
+      {
+         "id": 17,
+         "categoryId": 4,
+         "nombre": "Clasica",
+         "descripcion": "Conciertos, tocar instrumentos"
+      },
+      {
+         "id": 18,
+         "categoryId": 4,
+         "nombre": "Jazz",
+         "descripcion": "Conciertos, tocar instrumentos"
+      },
+      {
+         "id": 19,
+         "categoryId": 4,
+         "nombre": "Guitarra",
+         "descripcion": "Conciertos, tocar instrumentos"
+      },
+      {
+         "id": 20,
+         "categoryId": 4,
+         "nombre": "Mexicana",
+         "descripcion": "Conciertos, tocar instrumentos"
+      },
+      {
+         "id": 21,
+         "categoryId": 5,
+         "nombre": "Alpinismo",
+         "descripcion": "Escalar"
+      },
+      {
+         "id": 22,
+         "categoryId": 5,
+         "nombre": "Senderismo",
+         "descripcion": "Caminatas en grupos"
+      },
+      {
+         "id": 23,
+         "categoryId": 5,
+         "nombre": "Avistamiento de aves",
+         "descripcion": "Apreciasion de aves en la naturaleza"
+      },
+      {
+         "id": 24,
+         "categoryId": 5,
+         "nombre": "Espeleologia",
+         "descripcion": "Visitar  cuevas y cavernas"
+      },
+      {
+         "id": 25,
+         "categoryId": 5,
+         "nombre": "Ciclismo de montaña",
+         "descripcion": "Ciclismo recreativo"
+      },
+      {
+         "id": 26,
+         "categoryId": 6,
+         "nombre": "Juegos infantiles",
+         "descripcion": "Actividades para niños"
+      },
+      {
+         "id": 27,
+         "categoryId": 6,
+         "nombre": "Colorear",
+         "descripcion": "Taller para colorear y mejorar actividad motora"
+      },
+      {
+         "id": 28,
+         "categoryId": 6,
+         "nombre": "Dibujo",
+         "descripcion": "Aprender o practicar  tecnicas de dibujo"
+      },
+      {
+         "id": 29,
+         "categoryId": 6,
+         "nombre": "Ajedres",
+         "descripcion": "Taller para niños"
+      },
+      {
+         "id": 30,
+         "categoryId": 6,
+         "nombre": "Aprender a leer",
+         "descripcion": "Lecciones  de lectura para niños"
+      },
+      {
+         "id": 31,
+         "categoryId": 7,
+         "nombre": "Trabajar Arcilla",
+         "descripcion": "Taller para creaciones en arcilla"
+      },
+      {
+         "id": 32,
+         "categoryId": 7,
+         "nombre": "Pintura",
+         "descripcion": "Taller para aprender o practicar tecnicas de pintura"
+      },
+      {
+         "id": 33,
+         "categoryId": 7,
+         "nombre": "Madera",
+         "descripcion": "Taller para creaciones en madera"
+      },
+      {
+         "id": 34,
+         "categoryId": 7,
+         "nombre": "Dibujo",
+         "descripcion": "Taller para aprender o practicar tecnicas de dibujo"
+      },
+      {
+         "id": 35,
+         "categoryId": 7,
+         "nombre": "Fotografia",
+         "descripcion": "Taller para aprender o practicar tecnicas de fotografia"
+      }
+   ]
+}

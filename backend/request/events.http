@@ -1,0 +1,36 @@
+####gets events - trae todos los eventos####gets events - trae todos los eventos
+GET http://localhost:3000/api/v1/events
+
+
+####gets events - trae los eventos filtrados por categoria con id de categoria
+GET http://localhost:3000/api/v1/events/category/1
+
+### get events by preferences(subcategorias)- trae los eventos de una subcategoria por el id
+GET http://localhost:3000/api/v1/events/SubCategory/2
+
+####delete events - elimina un evento por el id
+DELETE  http://localhost:3000/api/v1/events/deleteEvent/9
+
+### post events - creacion de un evento
+POST http://localhost:3000/api/v1/events
+Content-Type: application/json
+
+{
+    "creatorId": 1,
+    "name": "parapdente84",
+    "description": "pintura , dubujo para todas las edades",
+    "address": "554 mali st.",
+    "startDate": "2024-04-14 20:57",
+    "endDate": "2024-04-15 20:57",
+    "permitChild": true,
+    "permitPets": false,
+    "preferenceId": 2,
+    "capacity": 75,
+    "location": {
+        "city": "san miguel",
+        "state": "tucuman",
+        "country": "argentina"
+    },
+    "isActive": false
+}
+

@@ -1,0 +1,26 @@
+###create category
+POST http://localhost:3000/api/v1/category
+Content-Type: application/json
+
+{
+    "name":"artes marciales",
+    "description":"nanananananananan"
+}
+
+###get category
+GET http://localhost:3000/api/v1/category 
+
+
+###create Preferences
+POST http://localhost:3000/api/v1/category/subCategory 
+Content-Type: application/json
+
+{
+    "categoryId": 1,
+    "name":"otros",
+    "description":"nanananananananan"
+}
+
+
+###get sub-category
+GET http://localhost:3000/api/v1/category 

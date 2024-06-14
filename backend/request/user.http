@@ -1,0 +1,17 @@
+####gets events
+
+GET http://localhost:3000/users
+
+### post events
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+   "userName": "nombre_de_usuario",
+   "firstName": "nombre",
+   "lastName": "apellido",
+   "email": "correo@ejemplo.com",
+   "birthdate": "1990-01-01",
+   "password": "contraseña",
+   "location":{"city":"buenos aires","state":"buenos Aires","contry":"argentina"} 
+}

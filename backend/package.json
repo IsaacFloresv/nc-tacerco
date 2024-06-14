@@ -1,0 +1,40 @@
+{
+   "name": "backend",
+   "version": "0.0.0",
+   "private": true,
+   "scripts": {
+      "start": "node ./bin/www",
+      "dev": "nodemon ./bin/www",
+      "debug": "DEBUG=backend:* npm run dev",
+      "debugw": "cross-env DEBUG=backend:* npm run dev",
+      "fix": "eslint --fix .",
+      "format": "prettier --write .",
+      "lint": "npm run fix && npm run format",
+      "db:down": "docker-compose -f ../docker-compose.yml down",
+      "db:up": "docker-compose -f ../docker-compose.yml up -d",
+      "migrate": "npx sequelize-cli db:migrate",
+      "rollback": "npx sequelize-cli db:migrate:undo:all",
+      "seed": "npx sequelize-cli db:seed:all"
+   },
+   "dependencies": {
+      
+      "bcrypt": "^5.1.1",
+      "cookie-parser": "~1.4.6",
+      "cors": "^2.8.5",
+      "debug": "~4.3.4",
+      "express": "~4.19.2",
+      "http-errors": "~2.0.0",
+      "jade": "~1.11.0",
+      "jsonwebtoken": "^9.0.2",
+      "morgan": "~1.10.0",
+      "pg": "^8.11.5",
+      "pg-hstore": "^2.3.4",
+      "sequelize": "^6.37.2"
+   },
+   "devDependencies": {
+      "cross-env": "^7.0.3",
+      "dotenv": "^16.4.5",
+      "nodemon": "^3.1.0",
+      "sequelize-cli": "^6.6.2"
+   }
+}
